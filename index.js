@@ -1,3 +1,38 @@
+// TASK 1
+// assign the values to the variable
+
+let a = 3;
+let b = 5;
+let c;
+
+// Using alert to print the message in the alert of the browser on load, using string 
+// interpolation to print variables operation in string as well
+alert(`
+var a = 3;
+var b = 5;
+var c;
+--------
+a + b = ${a + b}
+a - b = ${a - b}
+a * b = ${a * b}
+a / b = ${a / b}
+a % b = ${a % b}
+a += b : ${a += b}
+a -= b : ${a -= b}
+a *= b : ${a *= b}
+a /= b : ${a /= b}
+a %= b : ${a %= b}
+a == b : ${a == b}
+a != b : ${a != b}
+a > b : ${a > b}
+a < b : ${a < b}
+!a && !c : ${!a && !c}
+!a || !c : ${!a || !c}
+`
+);
+
+
+// TASK 2
 // Declaring variable type string
 let first_name = "Rahib";
 let last_name = "Ahmed";
